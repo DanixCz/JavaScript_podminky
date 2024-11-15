@@ -8,8 +8,8 @@ function Control(){
 
     //console.log(suffering);
 
-    if ((suffering.value == eternal_suffering.value) && (!isNaN(code.value))){
-        if ((nick.value != "") && (suffering.value != "") && (eternal_suffering.value != ""))
+    if ((suffering.value == eternal_suffering.value) && (!isNaN(code.value) && (nick.value != "") && (suffering.value != "") && (eternal_suffering.value != ""))){
+        
         console.log("login is true");
         output.innerHTML =("login is true");
         output.style.color= "green" //inspirace od Šimona
